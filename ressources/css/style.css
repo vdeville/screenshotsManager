@@ -1,0 +1,86 @@
+body{
+    background-color: #2c3e50;
+}
+
+.title{
+    margin-top: 2vh;
+    margin-bottom: 0;
+    text-align: center;
+
+    color: #ecf0f1;
+}
+.sub-title{
+    text-align: center;
+    color: #ecf0f1;
+}
+
+.flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.item{
+    height: 160px;
+    width: auto;
+    margin: 6px;
+    position: relative;
+}
+img.item{
+    border: solid #ecf0f1 1px;
+    border-radius: 8px;
+    margin: 0;
+}
+.remove{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+
+    transition-duration: 0.4s;
+
+    line-height: 2.2rem;
+    font-size: 2.2rem;
+}
+.remove span{
+    line-height: 2.2rem;
+    font-size: 2.2rem;
+    color: #e74c3c;
+}
+
+.copy{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+
+    transition-duration: 0.4s;
+
+    line-height: 2.2rem;
+    font-size: 2.2rem;
+}
+.copy span{
+    color: white;
+    line-height: 2.2rem;
+    font-size: 2.2rem;
+}

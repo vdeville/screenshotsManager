@@ -1,0 +1,4 @@
+AuthUserFile "/home/pic/pic.valentin.ovh/admin/.htpasswd"
+AuthName "Restricted Access"
+AuthType Basic
+Require valid-user
