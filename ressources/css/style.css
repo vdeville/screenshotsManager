@@ -37,6 +37,7 @@ body{
 .item{
     height: 160px;
     width: auto;
+    max-width: 100%;
     margin: 6px;
     position: relative;
 }
